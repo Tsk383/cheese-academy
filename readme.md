@@ -2,7 +2,7 @@
 
 ## DEMO
 
-  - https://github.com/Tsk383/cheese-academy
+  -
 
 ## 紹介と使い方
 
