@@ -1,0 +1,393 @@
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body {
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+.box {
+	max-width: 960px;
+}
+
+/* 
+タイトル*/
+.title {
+	margin: auto;
+	background-image: url(../img/mainbg.png);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: aliceblue;
+}
+
+.title1 {
+	font-size: 48px;
+	margin: 0 0 40px;
+}
+
+.title2 {
+	font-size: 36px;
+}
+
+/*
+画像の大きさ設定*/
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*nav*/
+.header {
+	display: flex;
+	height: 80px;
+	font-size: 21px;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+	border: 1px solid #efefef;
+}
+
+.nav {
+	display: flex;
+}
+
+.nav-img {
+	display: flex;
+	height: 80%;
+}
+
+.nav-list {
+	display: flex;
+}
+
+.nav-item {
+	margin: 0 48px 0;
+}
+
+/*
+about*/
+.about {
+	width: 960px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.about-text {
+	margin: 120px 0 80px;
+}
+
+.about-title {
+	font-size: 24px;
+	color: #ffd61a;
+	margin: 120px 0 24px;
+}
+
+.about-text1 {
+	margin: 24px 0 64px;
+}
+
+.about-text2 {
+	margin: 0 0 40px;
+}
+
+.about-text3 {
+	margin: 40px 0 40px;
+}
+
+.about-img {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+/*
+course*/
+.course {
+	margin: 64px 0 64px;
+}
+
+.course-text {
+	text-align: center;
+	margin: 64px 0 64px;
+}
+
+.course-title {
+	font-size: 24px;
+	color: #222222;
+	padding: 0 0 24px;
+}
+
+/* farm */
+.about-farm {
+	display: flex;
+}
+
+.farm-img {
+	width: 50%;
+	text-align: right;
+}
+
+.farm-text {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	background: lightgray;
+	flex-direction: column;
+	padding: 0 48px 0;
+}
+
+.farm-title {
+	font-size: 24px;
+	color: #222222;
+	margin: 0 0 40px;
+}
+
+/* knowledge */
+.knowledge {
+	display: flex;
+}
+
+.knowledge-img {
+	width: 50%;
+}
+
+.knowledge-text {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	background: lightgray;
+	flex-direction: column;
+	padding: 0 0 0 48px;
+}
+
+.knowledge-title {
+	font-size: 24px;
+	color: #222222;
+	margin: 0 0 40px;
+}
+
+/* tasting */
+.tasting {
+	display: flex;
+}
+
+.tasting-img {
+	width: 50%;
+	text-align: right;
+}
+
+.tasting-text {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	background: lightgray;
+	flex-direction: column;
+	padding: 0 0 0 48px;
+}
+
+.tasting-title {
+	font-size: 24px;
+	color: #222222;
+	margin: 0 0 40px;
+}
+
+/*news*/
+.news {
+	max-width: 960px;
+	margin: auto;
+}
+
+.news-title {
+	text-align: center;
+	margin: 0 0 64px;
+}
+
+.news-title1 {
+	font-size: 24px;
+	color: #ffd61a;
+	margin: 0 0 24px;
+}
+
+.news-topic {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.new-topic-erea {
+	width: 33.333%;
+	padding: 0 16px;
+}
+
+
+.news-date {
+	margin: 32px 0 24px;
+}
+
+.btn {
+	display: block;
+	width: 300px;
+	margin: auto;
+	padding: 19.5px 0;
+	background-color: #ffd61a;
+	color: #fff;
+	font-size: 21px;
+}
+
+.more {
+	text-align: center;
+	margin: 56px 0 48px;
+}
+
+.access {
+	width: 960px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #fafafa;
+}
+
+.access-title {
+	padding: 64px 0;
+}
+
+.access-title1 {
+	margin: 0 0 24px;
+}
+
+.access-text {
+	padding: 64px 0 80px;
+	display: flex;
+	justify-content: center;
+}
+
+/* google map埋め込み */
+.google-maps {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.table-between-line {
+	padding: 24px 0 24px;
+}
+
+.table-title {
+	text-align: left;
+}
+
+.table-detail {
+	text-align: left;
+	padding: 0 0 0 48px;
+}
+
+/*
+contact*/
+.contact {
+	width: 960px;
+	margin: auto;
+	padding: 64px 0 0;
+	text-align: center;
+}
+
+.contact-text {
+	margin: 0 0 80px;
+}
+
+.contact-subtitle {
+	margin: 24px 0 64px;
+}
+
+.contact-text2 {
+	margin: 32px 0 50px;
+}
+
+.contact-form {
+	display: flex;
+	justify-content: center;
+}
+
+
+.form-inner {
+	width: 560px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form-title {
+	text-align: left;
+	width: 260px;
+	padding: 0 120px 0 0;
+}
+
+.form-item {
+	border: 1px solid #efefef;
+	width: 328px;
+	height: 36px;
+	margin: auto;
+	border: #222222;
+	text-align: left;
+}
+
+.border-space {
+	margin: 24px 0 24px;
+}
+
+.form-item-radio {
+	text-align: left;
+	max-width: 400px;
+}
+
+.form-item-detail {
+	border: 1px solid #efefef;
+	width: 328px;
+	height: 108px;
+	margin: 32px 0 40px;
+	overflow: hidden;
+}
+
+.copyright {
+	text-align: center;
+	background-color: #707070;
+	margin: 150px 0 0;
+	padding: 32px 0 32px;
+}
